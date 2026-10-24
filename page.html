@@ -1,0 +1,100 @@
+<title>leakcoin</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<header class="top" id="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="#top"><span class="drop" aria-hidden="true"></span>leakcoin</a>
+    <nav class="cats" id="nav-cats" aria-label="Categories"></nav>
+    <label class="search" for="q">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search leaks, topics, sources" autocomplete="off">
+    </label>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div>
+      <p class="eyebrow">Every leak. One place.</p>
+      <h1>What's slipping out <em>before</em> it's official.</h1>
+      <p class="lede">GTA VI, Claude, ChatGPT, iPhone, Bitcoin ETFs, Supreme Court drafts. Anything with a history of getting out early, tracked in one feed with a source and a credibility score on every entry.</p>
+    </div>
+    <dl class="stats">
+      <div><dt>Leaks tracked</dt><dd id="stat-total">0</dd></div>
+      <div><dt>Confirmed</dt><dd id="stat-confirmed">0</dd></div>
+      <div><dt>Categories</dt><dd id="stat-cats">0</dd></div>
+      <div><dt>Latest entry</dt><dd id="stat-updated" style="font-size:1.25rem">—</dd></div>
+    </dl>
+  </section>
+
+  <section class="hot wrap" aria-labelledby="hot-h">
+    <div class="section-head"><h2 id="hot-h">Hot right now</h2><span class="count">ranked by attention</span></div>
+    <div class="hot-grid" id="hot"></div>
+  </section>
+
+  <section class="feed wrap" id="feed" aria-labelledby="feed-h">
+    <div class="section-head"><h2 id="feed-h">The feed</h2><span class="count" id="feed-count"></span></div>
+    <div class="toolbar">
+      <div class="chips" id="status-chips" role="group" aria-label="Filter by status">
+        <button class="chip status" data-status="all" aria-pressed="true">All</button>
+        <button class="chip status" data-status="confirmed" aria-pressed="false">Confirmed</button>
+        <button class="chip status" data-status="developing" aria-pressed="false">Developing</button>
+        <button class="chip status" data-status="rumor" aria-pressed="false">Rumor</button>
+        <button class="chip status" data-status="debunked" aria-pressed="false">Debunked</button>
+      </div>
+      <label class="sort">Sort
+        <select id="sort">
+          <option value="newest">Newest</option>
+          <option value="hottest">Hottest</option>
+          <option value="credible">Most credible</option>
+        </select>
+      </label>
+    </div>
+    <div class="topics" id="topics" role="group" aria-label="Filter by topic"></div>
+    <div class="cards" id="cards"></div>
+    <p class="empty" id="empty" hidden>No leaks match that. Try another category or clear the search.</p>
+  </section>
+
+  <section class="tip wrap" id="tip">
+    <div class="tip-box">
+      <div>
+        <p class="eyebrow">Got something?</p>
+        <h2>Send a tip</h2>
+        <p>Point us at a post, a filing, a listing that appeared too early. Tips are checked against at least one other source before anything goes in the feed.</p>
+      </div>
+      <form id="tip-form">
+        <div class="row2">
+          <label>Topic <input id="tip-topic" name="topic" placeholder="GTA VI, Claude, iPhone…" required></label>
+          <label>Category
+            <select id="tip-cat" name="category">
+              <option>Gaming</option><option>AI</option><option>Tech</option><option>Crypto</option><option>Entertainment</option><option>World</option>
+            </select>
+          </label>
+        </div>
+        <label>What leaked <textarea id="tip-text" name="text" placeholder="What did you see, and where?" required></textarea></label>
+        <label>Link to the source (optional) <input id="tip-link" name="link" type="url" placeholder="https://"></label>
+        <button class="btn" type="submit">Send tip</button>
+        <p class="note" id="tip-note" hidden>Received. We'll verify it before it goes live.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>leakcoin</strong> collects public reporting, insider claims and official statements about things before they're announced. Every entry names its source and carries a credibility score. We don't host stolen files or private data.</p>
+    <p>Confirmed = officially acknowledged · Developing = credible, not yet confirmed · Rumor = single source · Debunked = shown false</p>
+  </div>
+</footer>
+
+<dialog id="detail" aria-labelledby="detail-body">
+  <button class="close" id="detail-close" aria-label="Close">✕</button>
+  <div class="detail" id="detail-body"></div>
+</dialog>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
