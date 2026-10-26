@@ -153,5 +153,26 @@
   // --- boot
   const hash = (location.hash || "").replace("#", "");
   if (CATS[hash]) state.cat = hash;
+  // --- CA banner (address lives in config.js)
+  (function caBar() {
+    const ca = ((window.SITE || {}).ca || "").trim();
+    const addr = $("#ca-addr"), btn = $("#ca-copy");
+    if (!addr || !btn || !ca) return;
+    addr.textContent = ca;
+    addr.title = ca;
+    btn.disabled = false;
+    btn.addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(ca); }
+      catch (_) {
+        const r = document.createRange(); r.selectNodeContents(addr);
+        const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        try { document.execCommand("copy"); } catch (__) {}
+        sel.removeAllRanges();
+      }
+      btn.textContent = "Copied";
+      setTimeout(() => { btn.textContent = "Copy"; }, 1600);
+    });
+  })();
+
   renderStats(); renderTicker(); renderHot(); renderAll();
 })();

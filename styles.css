@@ -220,3 +220,16 @@ dialog::backdrop { background: rgba(22,21,19,.55); }
   .redact::after { display: none; }
 }
 .chip.more { border-style: dashed; color: var(--muted); }
+
+/* CA banner */
+.ca-bar { background: var(--card); border-bottom: 1px dashed var(--line-2); font-size: .82rem; }
+.ca-inner { display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 40px; padding-block: 6px; }
+.ca-label { font-family: var(--stamp); color: var(--red); border: 2px solid var(--red); border-radius: 3px; padding: 0 6px; letter-spacing: .08em; transform: rotate(-4deg); line-height: 1.4; }
+.ca-addr { font-family: var(--type); color: var(--ink); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ca-copy { border: 1px solid var(--ink-2); background: var(--paper); padding: 4px 12px; min-height: 32px; text-transform: uppercase; letter-spacing: .1em; font-size: .75rem; flex: none; }
+.ca-copy:hover:not(:disabled) { border-color: var(--red); color: var(--red); }
+.ca-copy:disabled { opacity: .45; cursor: default; }
+@media (max-width: 600px) {
+  .ca-inner { justify-content: space-between; }
+  .ca-copy { min-height: 38px; }
+}

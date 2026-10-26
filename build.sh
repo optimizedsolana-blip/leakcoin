@@ -10,5 +10,5 @@ cd "$(dirname "$0")"
 } > index.html
 # cache-bust: stamp asset URLs so browsers never mix a new page with old CSS/JS
 v=$(date +%s)
-sed -i '' -e "s|href=\"styles.css\"|href=\"styles.css?v=$v\"|" -e "s|src=\"data.js\"|src=\"data.js?v=$v\"|" -e "s|src=\"app.js\"|src=\"app.js?v=$v\"|" index.html
+sed -i '' -e "s|href=\"styles.css\"|href=\"styles.css?v=$v\"|" -e "s|src=\"data.js\"|src=\"data.js?v=$v\"|" -e "s|src=\"app.js\"|src=\"app.js?v=$v\"|" -e "s|src=\"config.js\"|src=\"config.js?v=$v\"|" index.html
 echo "built index.html (v=$v)"
