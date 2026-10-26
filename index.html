@@ -18,7 +18,7 @@
     <nav class="cats" id="nav-cats" aria-label="Categories"></nav>
     <label class="search" for="q">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input id="q" type="search" placeholder="grep the archive…" autocomplete="off">
+      <input id="q" type="search" placeholder="search the leaks" autocomplete="off">
     </label>
   </div>
 </header>
@@ -27,25 +27,25 @@
   <div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
   <section class="hero wrap">
     <div>
-      <p class="eyebrow"><span class="blink">●</span> Channel open · every leak, one place</p>
-      <h1>They didn't want <span class="redact">this</span> out<em>.</em></h1>
-      <p class="lede">GTA VI, Claude, ChatGPT, iPhone, Bitcoin ETFs, Supreme Court drafts. Anything with a history of getting out early, tracked in one feed with a source and a credibility score on every entry.</p>
+      <p class="eyebrow"><span class="blink">●</span> live · updated as stuff drops</p>
+      <h1>Leaking what they didn't want <span class="redact">you</span> to see<em>.</em></h1>
+      <p class="lede">GTA dates, new AI models, iPhones, crypto, court drafts. If it got out before they were ready, it ends up here. Every post says where it came from and how much we trust it.</p>
     </div>
     <dl class="stats">
-      <div><dt>Leaks tracked</dt><dd id="stat-total">0</dd></div>
-      <div><dt>Confirmed</dt><dd id="stat-confirmed">0</dd></div>
+      <div><dt>Leaks</dt><dd id="stat-total">0</dd></div>
+      <div><dt>Turned out true</dt><dd id="stat-confirmed">0</dd></div>
       <div><dt>Categories</dt><dd id="stat-cats">0</dd></div>
-      <div><dt>Latest entry</dt><dd id="stat-updated" style="font-size:1.25rem">—</dd></div>
+      <div><dt>Last drop</dt><dd id="stat-updated" style="font-size:1.25rem">—</dd></div>
     </dl>
   </section>
 
   <section class="hot wrap" aria-labelledby="hot-h">
-    <div class="section-head"><h2 id="hot-h">// Hot intercepts</h2><span class="count">ranked by heat</span></div>
+    <div class="section-head"><h2 id="hot-h">// Everyone's talking about</h2><span class="count">right now</span></div>
     <div class="hot-grid" id="hot"></div>
   </section>
 
   <section class="feed wrap" id="feed" aria-labelledby="feed-h">
-    <div class="section-head"><h2 id="feed-h">// The archive</h2><span class="count" id="feed-count"></span></div>
+    <div class="section-head"><h2 id="feed-h">// All leaks</h2><span class="count" id="feed-count"></span></div>
     <div class="toolbar">
       <div class="chips" id="status-chips" role="group" aria-label="Filter by status">
         <button class="chip status" data-status="all" aria-pressed="true">All</button>
@@ -64,15 +64,15 @@
     </div>
     <div class="topics" id="topics" role="group" aria-label="Filter by topic"></div>
     <div class="cards" id="cards"></div>
-    <p class="empty" id="empty" hidden>No leaks match that. Try another category or clear the search.</p>
+    <p class="empty" id="empty" hidden>Nothing here yet. Try a different search.</p>
   </section>
 
   <section class="tip wrap" id="tip">
     <div class="tip-box">
       <div>
-        <p class="eyebrow">Got something?</p>
-        <h2>Dead drop</h2>
-        <p>Point us at a post, a filing, a listing that appeared too early. Tips are checked against at least one other source before anything goes in the feed.</p>
+        <p class="eyebrow">Seen something?</p>
+        <h2>Send us a leak</h2>
+        <p>A post that got deleted, a store listing that went up too early, a screenshot from a group chat. Send it over. Nothing goes up until we find it somewhere else too.</p>
       </div>
       <form id="tip-form">
         <div class="row2">
@@ -83,10 +83,10 @@
             </select>
           </label>
         </div>
-        <label>What leaked <textarea id="tip-text" name="text" placeholder="What did you see, and where?" required></textarea></label>
-        <label>Link to the source (optional) <input id="tip-link" name="link" type="url" placeholder="https://"></label>
-        <button class="btn" type="submit">Drop it</button>
-        <p class="note" id="tip-note" hidden>Received. We'll verify it before it goes live.</p>
+        <label>What leaked <textarea id="tip-text" name="text" placeholder="What did you see and where did you see it?" required></textarea></label>
+        <label>Link (if you have one) <input id="tip-link" name="link" type="url" placeholder="https://"></label>
+        <button class="btn" type="submit">Send it</button>
+        <p class="note" id="tip-note" hidden>Got it. We'll check it out.</p>
       </form>
     </div>
   </section>
@@ -94,8 +94,8 @@
 
 <footer>
   <div class="wrap">
-    <p><strong>leakcoin</strong> collects public reporting, insider claims and official statements about things before they're announced. Every entry names its source and carries a credibility score. We don't host stolen files or private data.</p>
-    <p>Confirmed = officially acknowledged · Developing = credible, not yet confirmed · Rumor = single source · Debunked = shown false</p>
+    <p><strong>leakcoin</strong> posts stuff that's already out there: reports, insider posts, things companies slipped by accident. We always say where it came from. No stolen files, no hacked data, no one's personal info.</p>
+    <p>Confirmed: they admitted it. Developing: looks real, not official yet. Rumor: one source so far. Debunked: fake.</p>
   </div>
 </footer>
 

@@ -90,7 +90,7 @@ h1, h2, h3 { text-wrap: balance; margin: 0; line-height: 1.05; }
 
 /* hero */
 .hero { padding-block: 56px 34px; display: grid; gap: 28px; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: end; }
-.hero h1 { font-family: var(--display); font-weight: 400; font-size: clamp(3rem, 7.5vw, 6rem); text-transform: uppercase; letter-spacing: .005em; max-width: 12ch; margin-top: 12px; }
+.hero h1 { font-family: var(--display); font-weight: 400; font-size: clamp(2.6rem, 6.2vw, 5.2rem); text-transform: uppercase; letter-spacing: .005em; max-width: 15ch; margin-top: 12px; }
 .hero h1 em { font-style: normal; color: var(--stamp); }
 .redact { position: relative; display: inline-block; color: transparent; animation: reveal 5s ease-in-out infinite; }
 .redact::after { content: ""; position: absolute; inset: .1em -.08em .05em; background: var(--fg); animation: unredact 5s ease-in-out infinite; transform-origin: right; }
