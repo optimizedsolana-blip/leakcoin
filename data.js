@@ -1,4 +1,4 @@
-/* leakcoin data
+/* leaked data
    Add a leak = add an object to LEAKS. Fields:
    id        unique slug
    category  one of CATEGORIES keys

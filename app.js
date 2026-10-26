@@ -1,4 +1,4 @@
-/* leakcoin app */
+/* leaked app */
 (function () {
   const LEAKS = window.LEAKS || [];
   const CATS = window.CATEGORIES || {};

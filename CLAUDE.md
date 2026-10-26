@@ -20,7 +20,7 @@ Plain static site, no framework, no build step needed for Vercel.
 - `vercel.json`: static config.
 
 ## Status (handed off from a cloud session)
-- LIVE: https://leakcoin.vercel.app (Vercel project launchpad20/leakcoin, deployed 2026-10-26 from the Mac mini).
+- LIVE: https://justleaked.fun (bought via Vercel 2026-10-26, also www.) and https://leakcoin.vercel.app. Vercel project launchpad20/leakcoin. Site name shown to visitors is "leaked"; repo/project still called leakcoin.
 - GitHub repo connected to Vercel: every push to main auto-deploys. This Mac has no GitHub login, so deploy from here with `npx vercel --prod --yes`.
 - Done: full site built, 14 seeded real leak entries, pushed to GitHub (main).
 - Preview artifact: https://claude.ai/artifact/Pjw1wtxqJkzjoSvdxhoEVX
