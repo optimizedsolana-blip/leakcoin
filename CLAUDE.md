@@ -20,12 +20,13 @@ Plain static site, no framework, no build step needed for Vercel.
 - `vercel.json`: static config.
 
 ## Status (handed off from a cloud session)
+- LIVE: https://leakcoin.vercel.app (Vercel project launchpad20/leakcoin, deployed 2026-10-26 from the Mac mini).
+- GitHub auto-deploy NOT connected yet: redeploy with `npx vercel --prod` from this folder, or connect the repo in Vercel project settings > Git.
 - Done: full site built, 14 seeded real leak entries, pushed to GitHub (main).
 - Preview artifact: https://claude.ai/artifact/Pjw1wtxqJkzjoSvdxhoEVX
 - Repo is PUBLIC on GitHub.
 
 ## Next steps
-1. Deploy to Vercel: `npx vercel login` then `npx vercel --prod` from this folder
-   (or import the repo at vercel.com/new). Link the project to the GitHub repo so pushes auto-deploy.
+1. Connect the Vercel project to the GitHub repo so pushes auto-deploy (Vercel project settings > Git).
 2. Tip form only shows a confirmation. Wire it to a backend or form service so tips are received.
 3. Add more leak entries to data.js.
