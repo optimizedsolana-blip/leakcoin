@@ -16,8 +16,10 @@
   const cred = (n) => `<span class="cred" title="Credibility ${n} of 5">${[1,2,3,4,5].map(i => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}<span>${n}/5</span></span>`;
   const pill = (s) => `<span class="pill" data-s="${s}">${STATUS[s] || s}</span>`;
 
+  const fileNo = (l) => "LK-" + String(LEAKS.indexOf(l) + 1).padStart(4, "0");
   function card(l, hot) {
-    return `<button class="card ${hot ? "hot-card" : ""}" data-id="${esc(l.id)}" aria-haspopup="dialog">
+    return `<button class="card ${hot ? "hot-card" : ""}" data-id="${esc(l.id)}" data-s="${l.status}" aria-haspopup="dialog">
+      <span class="file">FILE ${fileNo(l)}</span>
       <div class="card-top"><span class="cat">${esc(CATS[l.category] || l.category)} · ${esc(l.topic)}</span>${pill(l.status)}</div>
       <h3>${esc(l.headline)}</h3>
       <p>${esc(l.summary)}</p>
@@ -75,6 +77,11 @@
     $("#stat-cats").textContent = Object.keys(CATS).length;
     $("#stat-updated").textContent = latest ? fmtDate(latest) : "—";
   }
+  function renderTicker() {
+    const items = [...LEAKS].sort((a, b) => b.date.localeCompare(a.date))
+      .map(l => `<span><b>${esc(STATUS[l.status] || l.status)}</b> ${esc(l.headline)}</span>`).join("");
+    $("#ticker").innerHTML = items + items;
+  }
   function renderAll() { renderNav(); renderTopics(); renderFeed(); }
 
   // --- detail dialog
@@ -129,5 +136,5 @@
   // --- boot
   const hash = (location.hash || "").replace("#", "");
   if (CATS[hash]) state.cat = hash;
-  renderStats(); renderHot(); renderAll();
+  renderStats(); renderTicker(); renderHot(); renderAll();
 })();

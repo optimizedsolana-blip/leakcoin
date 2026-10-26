@@ -7,27 +7,28 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&family=Special+Elite&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="top" id="top">
   <div class="wrap top-inner">
-    <a class="brand" href="#top"><span class="drop" aria-hidden="true"></span>leakcoin</a>
+    <a class="brand" href="#top"><span class="rec" aria-hidden="true"></span>leakcoin<span class="cursor" aria-hidden="true">_</span></a>
     <nav class="cats" id="nav-cats" aria-label="Categories"></nav>
     <label class="search" for="q">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input id="q" type="search" placeholder="Search leaks, topics, sources" autocomplete="off">
+      <input id="q" type="search" placeholder="grep the archive…" autocomplete="off">
     </label>
   </div>
 </header>
 
 <main>
+  <div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
   <section class="hero wrap">
     <div>
-      <p class="eyebrow">Every leak. One place.</p>
-      <h1>What's slipping out <em>before</em> it's official.</h1>
+      <p class="eyebrow"><span class="blink">●</span> Channel open · every leak, one place</p>
+      <h1>They didn't want <span class="redact">this</span> out<em>.</em></h1>
       <p class="lede">GTA VI, Claude, ChatGPT, iPhone, Bitcoin ETFs, Supreme Court drafts. Anything with a history of getting out early, tracked in one feed with a source and a credibility score on every entry.</p>
     </div>
     <dl class="stats">
@@ -39,12 +40,12 @@
   </section>
 
   <section class="hot wrap" aria-labelledby="hot-h">
-    <div class="section-head"><h2 id="hot-h">Hot right now</h2><span class="count">ranked by attention</span></div>
+    <div class="section-head"><h2 id="hot-h">// Hot intercepts</h2><span class="count">ranked by heat</span></div>
     <div class="hot-grid" id="hot"></div>
   </section>
 
   <section class="feed wrap" id="feed" aria-labelledby="feed-h">
-    <div class="section-head"><h2 id="feed-h">The feed</h2><span class="count" id="feed-count"></span></div>
+    <div class="section-head"><h2 id="feed-h">// The archive</h2><span class="count" id="feed-count"></span></div>
     <div class="toolbar">
       <div class="chips" id="status-chips" role="group" aria-label="Filter by status">
         <button class="chip status" data-status="all" aria-pressed="true">All</button>
@@ -70,7 +71,7 @@
     <div class="tip-box">
       <div>
         <p class="eyebrow">Got something?</p>
-        <h2>Send a tip</h2>
+        <h2>Dead drop</h2>
         <p>Point us at a post, a filing, a listing that appeared too early. Tips are checked against at least one other source before anything goes in the feed.</p>
       </div>
       <form id="tip-form">
@@ -84,7 +85,7 @@
         </div>
         <label>What leaked <textarea id="tip-text" name="text" placeholder="What did you see, and where?" required></textarea></label>
         <label>Link to the source (optional) <input id="tip-link" name="link" type="url" placeholder="https://"></label>
-        <button class="btn" type="submit">Send tip</button>
+        <button class="btn" type="submit">Drop it</button>
         <p class="note" id="tip-note" hidden>Received. We'll verify it before it goes live.</p>
       </form>
     </div>

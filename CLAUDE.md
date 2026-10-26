@@ -14,8 +14,8 @@ Plain static site, no framework, no build step needed for Vercel.
   Fields: id, category, topic, status (confirmed|developing|rumor|debunked), credibility 1-5,
   heat 0-100 (drives "Hot right now"), date, headline, summary, details[], sources[], timeline[], tags[].
 - `app.js`: rendering, category tabs, search, status and topic filters, sort, detail dialog, tip form.
-- `styles.css`: design tokens at the top. Dark-first, light theme via prefers-color-scheme.
-  Fonts: Barlow Condensed (display), IBM Plex Sans (body), IBM Plex Mono (labels).
+- `styles.css`: design tokens at the top. Underground leak-board look, dark only: black, phosphor green, red stamps, scanlines, ticker.
+  Fonts: Anton (display), JetBrains Mono (body), Special Elite (status stamps).
 - `page.html`: page body. `build.sh` wraps it into `index.html`. Re-run `./build.sh` after editing page.html.
 - `vercel.json`: static config.
 
