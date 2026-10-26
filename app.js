@@ -8,9 +8,14 @@
   const $ = (s) => document.querySelector(s);
 
   // --- helpers
+  // dates can be YYYY-MM-DD, YYYY-MM or YYYY when the exact day isn't known
   const fmtDate = (d) => {
-    const dt = new Date(d + "T00:00:00");
-    return dt.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+    const parts = String(d).split("-");
+    if (parts.length === 1) return parts[0];
+    const dt = new Date(parts[0] + "-" + parts[1] + "-" + (parts[2] || "01") + "T00:00:00");
+    return dt.toLocaleDateString(undefined, parts.length === 2
+      ? { year: "numeric", month: "short" }
+      : { year: "numeric", month: "short", day: "numeric" });
   };
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const cred = (n) => `<span class="cred" title="Credibility ${n} of 5">${[1,2,3,4,5].map(i => `<i class="${i <= n ? "on" : ""}"></i>`).join("")}<span>${n}/5</span></span>`;
