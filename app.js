@@ -85,7 +85,12 @@
   function renderTicker() {
     const items = [...LEAKS].sort((a, b) => b.date.localeCompare(a.date))
       .map(l => `<span><b>${esc(STATUS[l.status] || l.status)}</b> ${esc(l.headline)}</span>`).join("");
-    $("#ticker").innerHTML = items + items;
+    const track = $("#ticker");
+    track.innerHTML = items + items;
+    // constant reading speed (px/s) no matter how many leaks there are
+    const setSpeed = () => { track.style.animationDuration = (track.scrollWidth / 2 / 45) + "s"; };
+    setSpeed();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(setSpeed);
   }
   function renderAll() { renderNav(); renderTopics(); renderFeed(); }
 
