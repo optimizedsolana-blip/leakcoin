@@ -4,7 +4,7 @@
   const CATS = window.CATEGORIES || {};
   const STATUS = { confirmed: "Confirmed", developing: "Developing", rumor: "Rumor", debunked: "Debunked" };
 
-  const state = { cat: "all", status: "all", topic: null, q: "", sort: "newest" };
+  const state = { cat: "all", status: "all", topic: null, q: "", sort: "newest", allTopics: false };
   const $ = (s) => document.querySelector(s);
 
   // --- helpers
@@ -59,9 +59,14 @@
     pool.forEach(l => counts[l.topic] = (counts[l.topic] || 0) + 1);
     const topics = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
     if (state.topic && !counts[state.topic]) state.topic = null;
-    $("#topics").innerHTML = topics.map(t =>
+    // keep the row short: top topics only, unless expanded (the selected one always shows)
+    const LIMIT = 12;
+    const shown = state.allTopics ? topics : topics.filter((t, i) => i < LIMIT || t === state.topic);
+    const more = topics.length > LIMIT
+      ? `<button class="chip more" data-more="1">${state.allTopics ? "Fewer" : `+${topics.length - shown.length} more`}</button>` : "";
+    $("#topics").innerHTML = shown.map(t =>
       `<button class="chip topic" data-topic="${esc(t)}" aria-pressed="${state.topic === t}">${esc(t)} <span class="mono">${counts[t]}</span></button>`
-    ).join("");
+    ).join("") + more;
   }
   function renderHot() {
     const hot = [...LEAKS].sort((a, b) => b.heat - a.heat).slice(0, 3);
@@ -121,6 +126,7 @@
     renderAll();
   });
   $("#topics").addEventListener("click", (e) => {
+    if (e.target.closest("button[data-more]")) { state.allTopics = !state.allTopics; renderTopics(); return; }
     const b = e.target.closest("button[data-topic]"); if (!b) return;
     state.topic = state.topic === b.dataset.topic ? null : b.dataset.topic;
     renderTopics(); renderFeed();
@@ -136,7 +142,8 @@
   });
 
   // tip form: UI only until a backend exists
-  $("#tip-form").addEventListener("submit", (e) => {
+  const tipForm = $("#tip-form");
+  if (tipForm) tipForm.addEventListener("submit", (e) => {
     e.preventDefault();
     e.target.reset();
     const n = $("#tip-note"); n.hidden = false;

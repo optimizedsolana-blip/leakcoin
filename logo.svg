@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 172" role="img" aria-label="leaked">
+  <defs>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.5 1.6" result="holes"/>
+      <feComposite in="SourceGraphic" in2="holes" operator="in"/>
+    </filter>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ddbd80"/><stop offset="1" stop-color="#cfab6b"/>
+    </linearGradient>
+  </defs>
+  <path d="M16 30 Q16 20 26 20 H84 Q91 20 94 26 L98 33 H218 Q228 33 228 43 V156 H16Z" fill="#c29d5e"/>
+  <rect x="106" y="27" width="110" height="34" rx="2" fill="#efe7d2" transform="rotate(-1.2 160 44)"/>
+  <rect x="10" y="44" width="222" height="116" rx="7" fill="url(#front)"/>
+  <path d="M14 152 H228" stroke="#b8935a" stroke-width="1.5" opacity=".6"/>
+  <g transform="rotate(-11 121 103)" filter="url(#rough)">
+    <rect x="44" y="80" width="154" height="46" rx="5" fill="none" stroke="#c8102e" stroke-width="5"/>
+    <text x="121" y="115" text-anchor="middle" font-family="Anton, Impact, 'Arial Narrow', sans-serif" font-size="30" textLength="134" lengthAdjust="spacingAndGlyphs" fill="#c8102e">CONFIDENTIAL</text>
+  </g>
+</svg>
