@@ -26,7 +26,7 @@ window.LEAKS = [
     "topic": "GTA VI",
     "status": "confirmed",
     "credibility": 5,
-    "heat": 98,
+    "heat": 60,
     "date": "2025-11-06",
     "headline": "GTA VI pushed to November 19, 2026",
     "summary": "Rockstar's second delay moved the game from May 26, 2026 to November 19, 2026. Rumors of a slip circulated for weeks before Take-Two's earnings call made it official.",
@@ -3133,6 +3133,1713 @@ window.LEAKS = [
       "leak investigation",
       "munitions",
       "polygraph"
+    ]
+  },
+  {
+    "id": "gta-vi-review-embargo-time-leak",
+    "category": "gaming",
+    "topic": "GTA VI",
+    "status": "rumor",
+    "credibility": 3,
+    "heat": 93,
+    "date": "2026-10-23",
+    "headline": "Leaked GTA VI review embargo points to November 18",
+    "summary": "A ResetEra poster known as BlackBate says GTA VI reviews can go live on November 18, the day before launch. Some sites and YouTube channels are reportedly held back until launch day itself.",
+    "details": [
+      "The reported window is about 6 to 7 AM Eastern on November 18.",
+      "Some outlets may have to wait until 12:01 AM Eastern on November 19.",
+      "Rockstar has not announced an embargo date or time."
+    ],
+    "sources": [
+      "Notebookcheck",
+      "Insider Gaming",
+      "ResetEra"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "Insider Gaming says it knows the embargo date but won't publish it yet."
+      },
+      {
+        "date": "2026-10-23",
+        "event": "BlackBate posts the November 18 date and time window."
+      }
+    ],
+    "tags": [
+      "reviews",
+      "embargo",
+      "rockstar"
+    ]
+  },
+  {
+    "id": "shirrako-gta-vi-review-copy-rumor",
+    "category": "gaming",
+    "topic": "GTA VI",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 87,
+    "date": "2026-10-25",
+    "headline": "Spoiler-heavy YouTuber Shirrako posts a palm tree, fans fear a GTA VI code",
+    "summary": "Shirrako, known for posting full game endings around launch, posted a controller and palm tree emoji on X. Fans read it as a hint he has a GTA VI review copy, but nothing confirms that.",
+    "details": [
+      "The post does not mention GTA VI by name.",
+      "Neither Shirrako nor Rockstar has said he received a copy.",
+      "The worry is that the ending could show up online before launch."
+    ],
+    "sources": [
+      "Notebookcheck",
+      "GTA BOOM"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Shirrako posts the two emoji message on X."
+      },
+      {
+        "date": "2026-10-26",
+        "event": "GTA BOOM says the post does not prove he has the game."
+      }
+    ],
+    "tags": [
+      "review copies",
+      "spoilers",
+      "youtube"
+    ]
+  },
+  {
+    "id": "natethehate-gta-vi-review-copies-october",
+    "category": "gaming",
+    "topic": "GTA VI",
+    "status": "developing",
+    "credibility": 4,
+    "heat": 86,
+    "date": "2026-10-14",
+    "headline": "NateTheHate says GTA VI review copies go out before October ends",
+    "summary": "Asked on ResetEra whether critics had GTA VI yet, NateTheHate replied not yet but they will before the end of the month. That would give reviewers more than two weeks with the game.",
+    "details": [
+      "Insider Gaming separately said reviews will land before the November 19 launch.",
+      "Rockstar has not confirmed any review copy plan.",
+      "Earlier speculation had Rockstar using supervised review events instead of codes."
+    ],
+    "sources": [
+      "Notebookcheck",
+      "Insider Gaming",
+      "ResetEra"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "NateTheHate posts the end of October timing."
+      },
+      {
+        "date": "2026-10-23",
+        "event": "A separate leak puts the embargo on November 18."
+      }
+    ],
+    "tags": [
+      "review copies",
+      "natethehate",
+      "rockstar"
+    ]
+  },
+  {
+    "id": "cyberleek-gta-vi-build-200gb",
+    "category": "gaming",
+    "topic": "GTA VI",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 82,
+    "date": "2026-10-12",
+    "headline": "Cyberleek says its GTA VI dev build is over 200GB",
+    "summary": "The GTA VI leaker Cyberleek claimed the development build behind its clips is more than 200GB. Outlets warned a dev build usually carries extra tools and assets, so the retail download could be smaller.",
+    "details": [
+      "Rockstar, PlayStation and Xbox store pages still list no download size.",
+      "Pre-loading is set to start November 12.",
+      "Fake 113GB to 145GB 'builds' on torrent sites have been tied to malware."
+    ],
+    "sources": [
+      "Notebookcheck",
+      "TweakTown",
+      "The Game Haus"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-12",
+        "event": "Cyberleek posts the build size claim."
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Cyberleek says the build will not be released."
+      }
+    ],
+    "tags": [
+      "cyberleek",
+      "file size",
+      "dev build"
+    ]
+  },
+  {
+    "id": "cyberleek-lucia-clip-gta-vi",
+    "category": "gaming",
+    "topic": "GTA VI",
+    "status": "developing",
+    "credibility": 3,
+    "heat": 80,
+    "date": "2026-10-11",
+    "headline": "Cyberleek follows up with a second GTA VI clip focused on Lucia",
+    "summary": "Three days after its 25 minute leak, Cyberleek posted a shorter GTA VI clip centered on co-lead Lucia with some adult content. It came as the leaker's crypto token was climbing toward its stated target.",
+    "details": [
+      "Insider Gaming covered the clip as the next step in the leak campaign.",
+      "The linked token reportedly hit about $8.4 million in market value on October 11.",
+      "Rockstar has not verified any of the footage."
+    ],
+    "sources": [
+      "Insider Gaming",
+      "IGN",
+      "Tech Insider"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-08",
+        "event": "Cyberleek posts about 25 minutes of footage."
+      },
+      {
+        "date": "2026-10-11",
+        "event": "A second, Lucia-focused clip appears."
+      },
+      {
+        "date": "2026-10-14",
+        "event": "Cyberleek says it is stopping."
+      }
+    ],
+    "tags": [
+      "cyberleek",
+      "lucia",
+      "footage"
+    ]
+  },
+  {
+    "id": "gta-vi-deleted-pegi-listing",
+    "category": "gaming",
+    "topic": "GTA VI",
+    "status": "developing",
+    "credibility": 3,
+    "heat": 78,
+    "date": "2026-10-03",
+    "headline": "A since-deleted PEGI listing describes GTA VI's content",
+    "summary": "A PEGI 18 page for GTA VI briefly went up and came down, and screenshots describe detailed decapitation and frequent drug use. PEGI and Rockstar haven't said whether the wording was real.",
+    "details": [
+      "The listing was spotted by GamesRadar+ and reported by IGN.",
+      "No archived copy of the original page has been verified.",
+      "UK PlayStation and Xbox store pages do show PEGI 18 and similar content labels."
+    ],
+    "sources": [
+      "IBTimes UK",
+      "IGN",
+      "GamesRadar+",
+      "gHacks"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-01",
+        "event": "GTA VI gets its ESRB M rating."
+      },
+      {
+        "date": "2026-10-03",
+        "event": "Reports on the removed PEGI listing spread."
+      }
+    ],
+    "tags": [
+      "ratings board",
+      "pegi",
+      "rockstar"
+    ]
+  },
+  {
+    "id": "gta-v-200gb-leak-liberty-city-dlc",
+    "category": "gaming",
+    "topic": "Rockstar",
+    "status": "developing",
+    "credibility": 3,
+    "heat": 72,
+    "date": "2026-09-23",
+    "headline": "200GB GTA V leak shows cut Liberty City DLC and very early GTA VI files",
+    "summary": "A roughly 200GB batch of GTA V development files surfaced online, pointing to a scrapped Liberty City expansion and a cut 'Agent Trevor' DLC. It also reportedly includes very old GTA VI work.",
+    "details": [
+      "At least one outlet says the files trace back to the 2022 Rockstar breach, not a new hack.",
+      "The GTA VI assets are described as badly outdated.",
+      "Rockstar has not commented on the files."
+    ],
+    "sources": [
+      "Eurogamer",
+      "GamesRadar+",
+      "TheGamer",
+      "Hitmarker"
+    ],
+    "timeline": [
+      {
+        "date": "2022-09-18",
+        "event": "Rockstar is hacked and GTA VI dev videos leak."
+      },
+      {
+        "date": "2026-09-23",
+        "event": "The 200GB GTA V archive starts making the rounds."
+      }
+    ],
+    "tags": [
+      "gta v",
+      "cut content",
+      "source files"
+    ]
+  },
+  {
+    "id": "old-gameroll-gta-vi-leaks-proved-true",
+    "category": "gaming",
+    "topic": "GTA VI",
+    "status": "confirmed",
+    "credibility": 4,
+    "heat": 66,
+    "date": "2026-09-02",
+    "headline": "Old GameRoll GTA VI leaks mostly held up",
+    "summary": "Kotaku went back over a June 2025 list from GameRoll, who cited a friend of a Rockstar developer, and found many of the claims matched what Rockstar later showed. Some bigger claims still look off.",
+    "details": [
+      "Matches include a six star wanted level, Red Dead style NPC greetings and the GPS design.",
+      "Body damage, Jason slowing time and a limited inventory also lined up.",
+      "Claims like 1,000 interiors and three large islands look unlikely."
+    ],
+    "sources": [
+      "Kotaku",
+      "Screen Rant",
+      "Aroged"
+    ],
+    "timeline": [
+      {
+        "date": "2025-06",
+        "event": "GameRoll posts the list of GTA VI details."
+      },
+      {
+        "date": "2026-08-27",
+        "event": "Rockstar shows long gameplay on Netflix."
+      },
+      {
+        "date": "2026-09-02",
+        "event": "Kotaku compares the old list to what was shown."
+      }
+    ],
+    "tags": [
+      "gameroll",
+      "insider",
+      "gameplay"
+    ]
+  },
+  {
+    "id": "switch-2-games-dumped-after-jailbreak",
+    "category": "gaming",
+    "topic": "Nintendo",
+    "status": "developing",
+    "credibility": 4,
+    "heat": 84,
+    "date": "2026-10-25",
+    "headline": "Switch 2 jailbreak lets hackers pull files from Mario Kart World",
+    "summary": "A tethered Switch 2 exploit called ns2jb is being used to extract game data, starting with Mario Kart World, Deltarune and a beta build of The Duskbloods. Leak account CentroLeaks then claimed Nintendo is sending DMCA takedowns over the datamines.",
+    "details": [
+      "The exploit needs a PC and stops working after a reboot.",
+      "So far the dumps are asset level, and no way to play them on PC exists.",
+      "The DMCA claim rests on one post and Nintendo hasn't commented."
+    ],
+    "sources": [
+      "Kotaku",
+      "VideoCardz",
+      "TweakTown",
+      "GoNintendo"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10",
+        "event": "Kotaku reports the first Switch 2 jailbreak."
+      },
+      {
+        "date": "2026-10-25",
+        "event": "Reports say game files are being dumped."
+      },
+      {
+        "date": "2026-10-26",
+        "event": "CentroLeaks claims Nintendo is issuing DMCA notices."
+      }
+    ],
+    "tags": [
+      "switch 2",
+      "jailbreak",
+      "datamine"
+    ]
+  },
+  {
+    "id": "pokopia-datamine-dlc-2-lineup",
+    "category": "gaming",
+    "topic": "Pokemon",
+    "status": "rumor",
+    "credibility": 3,
+    "heat": 74,
+    "date": "2026-10-26",
+    "headline": "Pokopia datamine appears to list the DLC 2 Pokemon",
+    "summary": "Using the new Switch 2 dumping tools, dataminers pulled an icon sheet from Pokemon Pokopia with about two dozen Pokemon that aren't in the game yet. The leak also hints at events before the second DLC wave.",
+    "details": [
+      "Reports count 24 to 27 names, including the Applin family and Fennekin.",
+      "One claim points to a Thanksgiving-themed Applin event.",
+      "Nintendo and The Pokemon Company haven't commented."
+    ],
+    "sources": [
+      "Nintendo Everything",
+      "GameDaily",
+      "CentroLeaks"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-25",
+        "event": "Switch 2 file dumps start circulating."
+      },
+      {
+        "date": "2026-10-26",
+        "event": "The Pokopia icon sheet leak spreads."
+      }
+    ],
+    "tags": [
+      "pokopia",
+      "datamine",
+      "dlc"
+    ]
+  },
+  {
+    "id": "valve-composer-says-hlx-on-stage",
+    "category": "gaming",
+    "topic": "Valve",
+    "status": "confirmed",
+    "credibility": 4,
+    "heat": 83,
+    "date": "2026-10-21",
+    "headline": "Valve composer says 'HLX' out loud at GameSoundCon",
+    "summary": "During a Q&A about Valve's audio engine, composer Mike Morasky mentioned that HLX has its own version of HDR audio, next to Deadlock. HLX is the rumored codename for the next Half-Life, and it's the first public mention from a Valve staffer.",
+    "details": [
+      "The panel was at GameSoundCon 2026 in Burbank.",
+      "Viewers say a colleague next to him reacted to the slip.",
+      "Valve has still not said what HLX is."
+    ],
+    "sources": [
+      "Video Games Chronicle",
+      "VideoCardz",
+      "God is a Geek"
+    ],
+    "timeline": [
+      {
+        "date": "2026-02",
+        "event": "Dataminers find new HLX strings in a Deadlock update."
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Morasky names HLX during the panel Q&A."
+      }
+    ],
+    "tags": [
+      "half-life",
+      "hlx",
+      "valve"
+    ]
+  },
+  {
+    "id": "ea-closes-bioware-bloomberg",
+    "category": "gaming",
+    "topic": "EA",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 88,
+    "date": "2026-10-21",
+    "headline": "Bloomberg reports EA is closing BioWare, and the studio confirms it",
+    "summary": "Bloomberg reported a new round of EA layoffs that includes shutting down BioWare, and BioWare confirmed it on X shortly after. The next Mass Effect, which a small team had in early development, is cancelled.",
+    "details": [
+      "The cuts are about 3 percent of EA staff, roughly 400 people.",
+      "BioWare's Edmonton office is closing.",
+      "It follows EA's $55 billion sale to a group led by Saudi Arabia's PIF."
+    ],
+    "sources": [
+      "Bloomberg",
+      "Game Informer",
+      "Washington Post",
+      "Variety",
+      "CBC"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Bloomberg reports the closure, BioWare confirms it."
+      }
+    ],
+    "tags": [
+      "bioware",
+      "mass effect",
+      "layoffs"
+    ]
+  },
+  {
+    "id": "capcom-id-breach-11-million-records",
+    "category": "gaming",
+    "topic": "Capcom",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 79,
+    "date": "2026-10-23",
+    "headline": "Capcom says 11.7 million CAPCOM ID records were exposed",
+    "summary": "Capcom disclosed unauthorized access to about 11.7 million records tied to its CAPCOM ID accounts, including email addresses and recent IP addresses. It says card data was not exposed and is warning about phishing.",
+    "details": [
+      "Capcom found the intrusion on October 19.",
+      "Passwords on 196 accounts were changed without permission and have been reset.",
+      "Record count may not equal the number of people affected."
+    ],
+    "sources": [
+      "Capcom",
+      "Malwarebytes",
+      "Cybernews",
+      "GamingBible"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-19",
+        "event": "Capcom detects the unauthorized access."
+      },
+      {
+        "date": "2026-10-23",
+        "event": "Capcom discloses the breach."
+      }
+    ],
+    "tags": [
+      "data breach",
+      "capcom",
+      "phishing"
+    ]
+  },
+  {
+    "id": "fortnitemares-2026-shop-dates-leak",
+    "category": "gaming",
+    "topic": "Fortnite",
+    "status": "rumor",
+    "credibility": 4,
+    "heat": 62,
+    "date": "2026-10-19",
+    "headline": "Dataminers leak the rest of the Fortnitemares 2026 shop schedule",
+    "summary": "Fortnite dataminers posted dates for the remaining Fortnitemares collabs, from Obsession and Slenderman to Beetlejuice and Predator: Badlands. Epic hasn't confirmed the schedule.",
+    "details": [
+      "Obsession was listed for October 21, Slenderman for October 22, Beetlejuice for October 23.",
+      "Predator: Badlands was listed for October 28.",
+      "Chapter 7 Season 4 is set to end October 31."
+    ],
+    "sources": [
+      "VICE",
+      "fndb.gg"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-01",
+        "event": "Fortnitemares 2026 starts."
+      },
+      {
+        "date": "2026-10-19",
+        "event": "Remaining shop dates leak."
+      }
+    ],
+    "tags": [
+      "fortnite",
+      "datamine",
+      "collabs"
+    ]
+  },
+  {
+    "id": "battlefield-6-goty-edition-leak",
+    "category": "gaming",
+    "topic": "Battlefield",
+    "status": "confirmed",
+    "credibility": 4,
+    "heat": 55,
+    "date": "2026-10-13",
+    "headline": "Battlefield 6 Game of the Year Edition leaked, then got announced the same day",
+    "summary": "Dataminers spotted a Battlefield 6 GOTY Edition in the GameTools API, and leaker Daniluk4000 said it would arrive October 13. EA announced it that day, though the leaked 100 euro price didn't match.",
+    "details": [
+      "The edition's main extra is a kit that unlocks gear for all four classes.",
+      "Existing players get a cheaper upgrade path.",
+      "Battlefield 6 also came to Game Pass alongside it."
+    ],
+    "sources": [
+      "Push Square",
+      "GameSpot",
+      "Battlefield-Inside.de"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10",
+        "event": "Store catalog data shows the GOTY Edition."
+      },
+      {
+        "date": "2026-10-13",
+        "event": "EA officially announces it."
+      }
+    ],
+    "tags": [
+      "battlefield 6",
+      "datamine",
+      "ea"
+    ]
+  },
+  {
+    "id": "re-requiem-online-origins-confirmed",
+    "category": "gaming",
+    "topic": "Resident Evil",
+    "status": "confirmed",
+    "credibility": 4,
+    "heat": 50,
+    "date": "2026-10-09",
+    "headline": "Capcom confirms Resident Evil Requiem started as an online game",
+    "summary": "Producer Masachika Kawata said Requiem was first developed as an online game before poor research results pushed it back to horror. That matches an early 2025 claim from leaker Dusk Golem.",
+    "details": [
+      "The quote comes from a Biohazard 30th anniversary book interview.",
+      "The original leak said the online version starred Leon and Jill.",
+      "Capcom did not address the Jill part."
+    ],
+    "sources": [
+      "VICE",
+      "Biohazard 30th Special Mook"
+    ],
+    "timeline": [
+      {
+        "date": "2025",
+        "event": "Dusk Golem says RE9 was first planned as multiplayer."
+      },
+      {
+        "date": "2026-10-09",
+        "event": "Capcom's Kawata confirms the online origins."
+      }
+    ],
+    "tags": [
+      "resident evil",
+      "capcom",
+      "dusk golem"
+    ]
+  },
+  {
+    "id": "ac-hexe-casting-call-leak",
+    "category": "gaming",
+    "topic": "Assassin's Creed",
+    "status": "rumor",
+    "credibility": 3,
+    "heat": 52,
+    "date": "2026-10-05",
+    "headline": "Casting call leak gives Assassin's Creed Hexe's lead the name Petra",
+    "summary": "Leaked casting details describe Hexe's protagonist as a woman in her mid-20s called Petra, hunted by a group called the Order of the Lamb. Earlier leaks named her Anika, so Petra may be a placeholder.",
+    "details": [
+      "A modern day character named Anna is also listed.",
+      "Her family reportedly includes a midwife mother and a father who may be an executioner.",
+      "Ubisoft has confirmed none of it."
+    ],
+    "sources": [
+      "GamingBible",
+      "MP1st"
+    ],
+    "timeline": [
+      {
+        "date": "2026-05",
+        "event": "Leakers name the protagonist Anika."
+      },
+      {
+        "date": "2026-10-05",
+        "event": "Casting details naming Petra are reported."
+      }
+    ],
+    "tags": [
+      "assassin's creed",
+      "ubisoft",
+      "casting"
+    ]
+  },
+  {
+    "id": "winds-waves-starter-evolutions-4chan",
+    "category": "gaming",
+    "topic": "Pokemon",
+    "status": "rumor",
+    "credibility": 1,
+    "heat": 48,
+    "date": "2026-10-05",
+    "headline": "4chan post claims to show Winds and Waves starter evolutions",
+    "summary": "An anonymous 4chan post claimed to reveal the evolution lines for the Gen 10 starters. It came days after a bigger Winds and Waves text leak, but the source is weak.",
+    "details": [
+      "The post is anonymous and unverified.",
+      "Game Freak and The Pokemon Company haven't commented.",
+      "Winds and Waves is due on Switch 2 in 2027."
+    ],
+    "sources": [
+      "VICE",
+      "Game Rant"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-02",
+        "event": "Leaked beta text reveals the Gen 10 battle gimmick."
+      },
+      {
+        "date": "2026-10-05",
+        "event": "The starter evolution post appears."
+      }
+    ],
+    "tags": [
+      "pokemon",
+      "gen 10",
+      "4chan"
+    ]
+  },
+  {
+    "id": "keplerl2-ps6-memory-cost",
+    "category": "gaming",
+    "topic": "PlayStation",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 58,
+    "date": "2026-10",
+    "headline": "Leaker says PS6 memory and storage alone cost over $680",
+    "summary": "KeplerL2 posted on NeoGAF that the PS6's RAM and NAND cost more than $680 combined, which set off fears of a $1,000 console. It's a single forum line, not a spec sheet.",
+    "details": [
+      "The memory shortage has already pushed up other hardware prices.",
+      "Moore's Law is Dead separately said PS6 production starts in early 2027.",
+      "Sony has announced nothing about the PS6."
+    ],
+    "sources": [
+      "NeoGAF",
+      "Tech Insider",
+      "Moore's Law is Dead"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "KeplerL2 disowns a viral PS6 handheld spec sheet."
+      },
+      {
+        "date": "2026-10",
+        "event": "KeplerL2 posts the memory cost claim."
+      },
+      {
+        "date": "2026-10-20",
+        "event": "MLID reports an early 2027 production start."
+      }
+    ],
+    "tags": [
+      "ps6",
+      "keplerl2",
+      "hardware"
+    ]
+  },
+  {
+    "id": "xbox-helix-vs-ps6-tflops-leak",
+    "category": "gaming",
+    "topic": "Xbox",
+    "status": "rumor",
+    "credibility": 3,
+    "heat": 60,
+    "date": "2026-09-23",
+    "headline": "Leak puts next Xbox at 56 TFLOPS and PS6 at 40",
+    "summary": "KeplerL2 claimed on NeoGAF that Xbox Project Helix hits 56 TFLOPS against 40 for the PS6, and that both chips have taped out. Microsoft, Sony and AMD haven't confirmed any of it.",
+    "details": [
+      "Helix is said to have 68 compute units versus 52 to 54 for PS6.",
+      "Both are reportedly built on AMD's RDNA 5.",
+      "TFLOPS is a theoretical figure, not real game performance."
+    ],
+    "sources": [
+      "TweakTown",
+      "OC3D",
+      "PC Guide"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-23",
+        "event": "KeplerL2 posts the TFLOPS and tape-out claims."
+      }
+    ],
+    "tags": [
+      "xbox",
+      "ps6",
+      "hardware"
+    ]
+  },
+  {
+    "id": "ps-plus-brazil-second-price-hike-leak",
+    "category": "gaming",
+    "topic": "PlayStation",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 45,
+    "date": "2026-09-17",
+    "headline": "Alleged Sony message points to another PS Plus price hike in Brazil",
+    "summary": "Russian outlet ixbt.games published what it said was an internal Sony Brazil message planning a second PS Plus price rise before year end. The leaked numbers mean increases of 16 to 36 percent depending on tier.",
+    "details": [
+      "Essential would go from 49.90 to 67.90 reais.",
+      "It would follow a PS Plus price increase in May 2026.",
+      "Sony has not confirmed anything."
+    ],
+    "sources": [
+      "ixbt.games",
+      "Olhar Digital",
+      "PPE.pl"
+    ],
+    "timeline": [
+      {
+        "date": "2026-05-18",
+        "event": "Sony announces a PS Plus price increase."
+      },
+      {
+        "date": "2026-09-17",
+        "event": "The alleged internal message is published."
+      }
+    ],
+    "tags": [
+      "ps plus",
+      "pricing",
+      "sony"
+    ]
+  },
+  {
+    "id": "game-pass-six-tier-leak",
+    "category": "gaming",
+    "topic": "Xbox",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 44,
+    "date": "2026-09-15",
+    "headline": "Forum leak says Game Pass could split into six tiers",
+    "summary": "A forum member known as Slayven claimed Microsoft is planning to break Game Pass into as many as six paid pieces. Xbox has announced no new tiers or prices.",
+    "details": [
+      "Later reports talked about an a la carte plan.",
+      "October's lineup still uses the four plan setup.",
+      "Microsoft has not commented."
+    ],
+    "sources": [
+      "Tech Insider",
+      "Shattered"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-15",
+        "event": "The six tier claim appears."
+      }
+    ],
+    "tags": [
+      "game pass",
+      "pricing",
+      "xbox"
+    ]
+  },
+  {
+    "id": "malo932-smash-nintendogs-claim",
+    "category": "gaming",
+    "topic": "Nintendo",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 50,
+    "date": "2026-09-05",
+    "headline": "Anonymous leaker claims a new Smash Bros and Nintendogs for Switch 2",
+    "summary": "YouTube commenter malo932, who called the two September Nintendo Directs a week early, also claimed a brand new Smash Bros and a Nintendogs revival are in the works. Neither showed up in the Directs.",
+    "details": [
+      "Nintendo held a Zelda 40th Direct on September 8 and a general Direct on September 9.",
+      "The account later deleted its comments and renamed itself 'stop'.",
+      "Nintendo has not commented on either game."
+    ],
+    "sources": [
+      "Kotaku",
+      "EventHubs",
+      "My Nintendo News"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-04",
+        "event": "Nintendo confirms the two Directs."
+      },
+      {
+        "date": "2026-09-05",
+        "event": "The Smash and Nintendogs claims spread."
+      },
+      {
+        "date": "2026-09-09",
+        "event": "The main Direct airs without either game."
+      }
+    ],
+    "tags": [
+      "smash bros",
+      "nintendogs",
+      "switch 2"
+    ]
+  },
+  {
+    "id": "wolverine-ending-leaks-before-launch",
+    "category": "gaming",
+    "topic": "Marvel",
+    "status": "confirmed",
+    "credibility": 4,
+    "heat": 58,
+    "date": "2026-09-06",
+    "headline": "Marvel's Wolverine ending leaks a week before launch",
+    "summary": "Clips from Marvel's Wolverine, including boss fights and the full ending and credits, spread online before its September 15 release. Kotaku said it couldn't tell if they came from early retail copies, promo copies or theft.",
+    "details": [
+      "At least one streamer broadcast the game early before Sony's DMCA notices took it down.",
+      "Kotaku said it did not look tied to a blackmail scheme like the 2023 Insomniac hack.",
+      "The game still had Sony's biggest launch month since Helldivers 2."
+    ],
+    "sources": [
+      "Kotaku",
+      "Push Square",
+      "ixbt.games"
+    ],
+    "timeline": [
+      {
+        "date": "2023-12",
+        "event": "Insomniac ransomware leak exposes early Wolverine material."
+      },
+      {
+        "date": "2026-09-05",
+        "event": "Early gameplay and streams start circulating."
+      },
+      {
+        "date": "2026-09-06",
+        "event": "Kotaku confirms the ending has leaked."
+      },
+      {
+        "date": "2026-09-15",
+        "event": "Wolverine launches on PS5."
+      }
+    ],
+    "tags": [
+      "wolverine",
+      "insomniac",
+      "spoilers"
+    ]
+  },
+  {
+    "id": "anthropic-ipo-draft-prospectus-leak",
+    "category": "ai",
+    "topic": "Anthropic",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 92,
+    "date": "2026-09-28",
+    "headline": "Anthropic's confidential IPO draft leaks to Reuters",
+    "summary": "A confidential draft of Anthropic's S-1 prospectus, filed privately with the SEC in June, reached Reuters and then other outlets. It showed fast revenue growth, very large losses and a long list of risk factors.",
+    "details": [
+      "The draft reportedly showed about $4.6 billion in 2025 revenue and a net loss of about $42 billion, mostly non-cash.",
+      "The document runs about 261 pages, roughly 80 of them risk factors.",
+      "Confidential drafts are not posted on EDGAR, so its contents only came out through the leak."
+    ],
+    "sources": [
+      "Reuters",
+      "CNN",
+      "Fortune",
+      "The Rundown AI"
+    ],
+    "timeline": [
+      {
+        "date": "2026-06-01",
+        "event": "Anthropic confidentially submits a draft S-1 to the SEC."
+      },
+      {
+        "date": "2026-09-28",
+        "event": "Reuters reports on the leaked draft."
+      },
+      {
+        "date": "2026-09-29",
+        "event": "CNN, Fortune and others pick up the figures."
+      }
+    ],
+    "tags": [
+      "ipo",
+      "filing",
+      "finance"
+    ]
+  },
+  {
+    "id": "openai-fires-safety-researchers-leak-probe",
+    "category": "ai",
+    "topic": "OpenAI",
+    "status": "developing",
+    "credibility": 4,
+    "heat": 88,
+    "date": "2026-10-22",
+    "headline": "OpenAI fired three safety researchers it suspected of leaking",
+    "summary": "The Wall Street Journal reported that OpenAI fired three safety researchers on October 1 after suspecting them of sharing internal model information with an outside AI safety researcher, partly over disappearing Signal chats. The researchers deny wrongdoing.",
+    "details": [
+      "OpenAI called it a significant breach of trust and said information was handled outside company procedures.",
+      "Reports say the probe focused on details about the reasoning process of an internal model.",
+      "OpenAI has not publicly detailed what was shared."
+    ],
+    "sources": [
+      "The Wall Street Journal",
+      "AI Weekly",
+      "Free Press Journal"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-01",
+        "event": "Three safety researchers are fired."
+      },
+      {
+        "date": "2026-10-22",
+        "event": "WSJ reports the leak suspicion and the Signal chats."
+      }
+    ],
+    "tags": [
+      "safety",
+      "internal-probe",
+      "signal"
+    ]
+  },
+  {
+    "id": "gemini-4-carbon-internal-testing",
+    "category": "ai",
+    "topic": "Gemini",
+    "status": "developing",
+    "credibility": 4,
+    "heat": 78,
+    "date": "2026-10-09",
+    "headline": "Google staff are testing a Gemini 4 checkpoint called Carbon",
+    "summary": "Business Insider saw internal documents and screenshots showing Google employees trying a Gemini 4 checkpoint codenamed Carbon on an internal coding tool. One employee said its coding felt close to Claude Opus 5.5, though that was an early impression.",
+    "details": [
+      "Carbon is separate from Argon, the Gemini 4 checkpoint already seen in A/B tests.",
+      "Internal documents also mentioned a third codename, Barium.",
+      "TestingCatalog later reported Carbon showing up on LMArena and with partners."
+    ],
+    "sources": [
+      "Business Insider",
+      "TestingCatalog"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-09",
+        "event": "Business Insider reports on Carbon."
+      },
+      {
+        "date": "2026-10-23",
+        "event": "TestingCatalog says Carbon is appearing on LMArena."
+      }
+    ],
+    "tags": [
+      "gemini-4",
+      "codename",
+      "arena"
+    ]
+  },
+  {
+    "id": "claude-next-claude-code-rumor",
+    "category": "ai",
+    "topic": "Claude",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 55,
+    "date": "2026-10-11",
+    "headline": "X post claims an unreleased 'Claude Next' is live in Claude Code",
+    "summary": "An X account claimed Anthropic was testing a model called Claude Next inside Claude Code. Nothing backs it up so far, with no model ID, docs or Anthropic comment.",
+    "details": [
+      "The claim came from a single social media post.",
+      "No model card, pricing or Arena listing has appeared.",
+      "Anthropic has not commented."
+    ],
+    "sources": [
+      "OrcaRouter blog",
+      "X posts"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-11",
+        "event": "Claude Next claim posted on X."
+      }
+    ],
+    "tags": [
+      "claude-code",
+      "unverified",
+      "model"
+    ]
+  },
+  {
+    "id": "qwen-4-code-traces-and-test-leaks",
+    "category": "ai",
+    "topic": "Qwen",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 50,
+    "date": "2026-10",
+    "headline": "Qwen 4 traces show up in open-source code, test outputs claimed",
+    "summary": "A draft pull request in the SGLang repo references a Qwen4 model, and a Chinese roundup says early Qwen 4 test outputs have leaked. Alibaba named Qwen 4 in September but has not released it or given a date.",
+    "details": [
+      "The SGLang pull request was still a draft with no merge.",
+      "The claimed test outputs trace back to a single Bilibili creator.",
+      "An earlier leak pointing to a September launch did not pan out."
+    ],
+    "sources": [
+      "KongchangAI",
+      "Geeky Gadgets",
+      "OrcaRouter blog"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-22",
+        "event": "Alibaba names Qwen 4 at its Apsara conference."
+      },
+      {
+        "date": "2026-10",
+        "event": "Code traces and claimed test outputs circulate."
+      }
+    ],
+    "tags": [
+      "alibaba",
+      "open-source",
+      "code-traces"
+    ]
+  },
+  {
+    "id": "302-ai-aggregator-data-exposure",
+    "category": "ai",
+    "topic": "AI apps",
+    "status": "confirmed",
+    "credibility": 4,
+    "heat": 60,
+    "date": "2026-10-22",
+    "headline": "AI aggregator 302.ai left 22TB of chats and files exposed",
+    "summary": "Cybernews researchers found an open storage bucket at AI aggregator 302.ai holding about 17.6 million files, including user chat logs. The data was taken offline after the researchers reached out.",
+    "details": [
+      "More than 144,000 chat logs held prompts, replies and metadata.",
+      "Some logs included contact details and home addresses.",
+      "Researchers found no sign that attackers had downloaded the files."
+    ],
+    "sources": [
+      "Cybernews",
+      "TechRadar"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-22",
+        "event": "TechRadar and Cybernews report the exposure."
+      }
+    ],
+    "tags": [
+      "data-exposure",
+      "chat-logs",
+      "cloud"
+    ]
+  },
+  {
+    "id": "gurman-homeview-apple-tv-homepod-leak",
+    "category": "tech",
+    "topic": "Apple",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 62,
+    "date": "2026-10-11",
+    "headline": "Gurman spells out Apple's home event two days early",
+    "summary": "Ahead of Apple's October 13 home event, Bloomberg's Mark Gurman reported details of a new smart home hub, a HomePod mini 2 and a new Apple TV 4K. MacRumors rounded up 16 details from the reporting.",
+    "details": [
+      "The tabletop HomeView hub was reported in four finishes.",
+      "Gurman also described a later model with a larger screen on a robotic arm, expected in 2027 or 2028.",
+      "He had called the October 13 date before Apple confirmed it."
+    ],
+    "sources": [
+      "Bloomberg",
+      "MacRumors"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-30",
+        "event": "Reports point to an October 13 launch."
+      },
+      {
+        "date": "2026-10-11",
+        "event": "MacRumors rounds up the leaked details."
+      },
+      {
+        "date": "2026-10-13",
+        "event": "Apple holds the event."
+      }
+    ],
+    "tags": [
+      "gurman",
+      "smart-home",
+      "event"
+    ]
+  },
+  {
+    "id": "oled-touch-macbook-pro-late-october",
+    "category": "tech",
+    "topic": "Mac",
+    "status": "developing",
+    "credibility": 4,
+    "heat": 80,
+    "date": "2026-10",
+    "headline": "Gurman points to an OLED touchscreen MacBook Pro this month",
+    "summary": "Gurman reportedly says Apple plans a late October launch with M6 Macs, an OLED iPad mini and a redesigned MacBook Pro with an OLED touchscreen. Apple has not confirmed a date.",
+    "details": [
+      "It would be the first touchscreen Mac.",
+      "Reports put the announcement around October 27 or 28 with stores following in early November.",
+      "Gurman said the redesign is lighter but not much thinner."
+    ],
+    "sources": [
+      "Bloomberg",
+      "9to5Mac",
+      "BGR"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-08",
+        "event": "9to5Mac reports on the new MacBook Pro leak."
+      },
+      {
+        "date": "2026-10",
+        "event": "Late October launch window reported."
+      }
+    ],
+    "tags": [
+      "macbook-pro",
+      "oled",
+      "m6"
+    ]
+  },
+  {
+    "id": "galaxy-s27-screen-protector-leak",
+    "category": "tech",
+    "topic": "Samsung",
+    "status": "rumor",
+    "credibility": 3,
+    "heat": 58,
+    "date": "2026-10-20",
+    "headline": "Galaxy S27 screen protectors show three models, no Pro",
+    "summary": "SammyGuru got images of alleged screen protectors for the Galaxy S27, S27 Plus and S27 Ultra. There is no protector for the rumored S27 Pro, so Samsung may skip it again.",
+    "details": [
+      "The front design looks close to the S26, with slightly thinner bezels on the Ultra.",
+      "An earlier screen protector leak on October 3 included a Pro model.",
+      "A tipster says Samsung is aiming for a January 2027 launch."
+    ],
+    "sources": [
+      "Android Authority",
+      "SammyGuru",
+      "Sammy Fans"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-03",
+        "event": "First screen protector leak shows four sizes."
+      },
+      {
+        "date": "2026-10-20",
+        "event": "New images show three models only."
+      }
+    ],
+    "tags": [
+      "galaxy-s27",
+      "accessories",
+      "lineup"
+    ]
+  },
+  {
+    "id": "kopite-rtx-60-rubin-2028",
+    "category": "tech",
+    "topic": "Nvidia",
+    "status": "rumor",
+    "credibility": 4,
+    "heat": 57,
+    "date": "2026-09-21",
+    "headline": "Kopite7kimi says RTX 60 cards won't ship until 2028",
+    "summary": "Well known GPU leaker kopite7kimi posted that the consumer Rubin chips, GR20x, won't ship until 2028. That is later than his own earlier call for the second half of 2027.",
+    "details": [
+      "The RTX 60 series is expected to use Rubin based GR20x dies.",
+      "Memory supply has already delayed the RTX 50 Super cards.",
+      "Nvidia has not announced any RTX 60 products."
+    ],
+    "sources": [
+      "Tom's Hardware",
+      "TechPowerUp",
+      "Tom's Guide"
+    ],
+    "timeline": [
+      {
+        "date": "2026-01",
+        "event": "Kopite7kimi points to the second half of 2027."
+      },
+      {
+        "date": "2026-09-21",
+        "event": "He moves the call to 2028."
+      }
+    ],
+    "tags": [
+      "gpu",
+      "rubin",
+      "kopite7kimi"
+    ]
+  },
+  {
+    "id": "tesla-app-leaks-optimus-gen-3",
+    "category": "tech",
+    "topic": "Tesla",
+    "status": "rumor",
+    "credibility": 3,
+    "heat": 64,
+    "date": "2026-09-23",
+    "headline": "Tesla's own Android app leaks the Optimus Gen 3 design",
+    "summary": "Image files named for Optimus Gen 3 were found inside Tesla's Android app, showing a cleaner robot with enclosed joints and new hands. Tesla has not confirmed the design.",
+    "details": [
+      "The assets were spotted in app version 4.60.5 and later reportedly removed.",
+      "The renders show Gen 2.5 and Gen 3 side by side.",
+      "They are app renders, not photos of real hardware."
+    ],
+    "sources": [
+      "Teslarati",
+      "Drive Tesla Canada",
+      "Tesla North"
+    ],
+    "timeline": [
+      {
+        "date": "2026-08-27",
+        "event": "Files reportedly first appear in the app."
+      },
+      {
+        "date": "2026-09-23",
+        "event": "Coverage of the find spreads."
+      }
+    ],
+    "tags": [
+      "optimus",
+      "app-teardown",
+      "robot"
+    ]
+  },
+  {
+    "id": "keystone-wallet-customer-data-breach",
+    "category": "crypto",
+    "topic": "Hardware wallets",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 74,
+    "date": "2026-10-24",
+    "headline": "Keystone wallet buyers' home addresses leak in store breach",
+    "summary": "Hardware wallet maker Keystone said attackers got into its online store and took customer shipping addresses, contact details and order histories. It says keys, seed phrases and payment details were not exposed.",
+    "details": [
+      "Keystone detected the access on October 20 and confirmed the theft on October 23.",
+      "Some exposed records were older than the 180 days Keystone said it keeps shipping data.",
+      "The company warned customers about scammers posing as support."
+    ],
+    "sources": [
+      "Crypto.news",
+      "Cointribune",
+      "FinanceFeeds"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Unauthorized access to the store."
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Keystone discloses the breach on X."
+      }
+    ],
+    "tags": [
+      "data-breach",
+      "wallet",
+      "phishing-risk"
+    ]
+  },
+  {
+    "id": "railway-env-var-leak-crypto-drains",
+    "category": "crypto",
+    "topic": "Wallet security",
+    "status": "developing",
+    "credibility": 4,
+    "heat": 76,
+    "date": "2026-10-21",
+    "headline": "Railway credential leak tied to $371K in wallet drains",
+    "summary": "Cloud host Railway said an attacker may have read decrypted customer environment variables and told everyone to rotate secrets. Investigator Taylor Monahan linked about $371,000 in crypto thefts across 19 chains to private keys stored there.",
+    "details": [
+      "Railway's preliminary report says the attacker was inside from October 20 to October 22.",
+      "The attacker appeared to be hunting for AI provider API keys.",
+      "Railway has not confirmed the crypto loss figure."
+    ],
+    "sources": [
+      "CryptoSlate",
+      "Crypto.news",
+      "Railway"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-20",
+        "event": "Attacker gets into build systems."
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Railway discloses the incident."
+      },
+      {
+        "date": "2026-10-22",
+        "event": "Theft estimate published and credentials reset."
+      }
+    ],
+    "tags": [
+      "cloud-breach",
+      "private-keys",
+      "rotation"
+    ]
+  },
+  {
+    "id": "hegseth-bans-insider-bets-polymarket-kalshi",
+    "category": "crypto",
+    "topic": "Polymarket",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 70,
+    "date": "2026-10-20",
+    "headline": "Pentagon bans troops from betting on leaked operation info",
+    "summary": "A memo from Defense Secretary Pete Hegseth bars military and Pentagon staff from trading on nonpublic information about operations, naming Polymarket and Kalshi. It follows a case where a soldier allegedly made about $410,000 betting on the Maduro raid.",
+    "details": [
+      "The ban covers classified and unclassified nonpublic information.",
+      "Polymarket earlier referred dozens of possible military insider cases to the Justice Department.",
+      "Researchers warn that public on-chain bets can tip off adversaries."
+    ],
+    "sources": [
+      "CNN",
+      "TheStreet",
+      "Bitcoin.com News"
+    ],
+    "timeline": [
+      {
+        "date": "2026-08-21",
+        "event": "CNN reports Polymarket referrals to DOJ."
+      },
+      {
+        "date": "2026-10-20",
+        "event": "Hegseth memo issues the ban."
+      }
+    ],
+    "tags": [
+      "prediction-markets",
+      "insider-trading",
+      "pentagon"
+    ]
+  },
+  {
+    "id": "house-oversight-crypto-com-insider-letter",
+    "category": "crypto",
+    "topic": "Crypto.com",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 52,
+    "date": "2026-09-29",
+    "headline": "House Oversight asks Crypto.com for records on insider bets",
+    "summary": "The House Oversight Committee wrote to Crypto.com's CEO asking for records as part of its probe into prediction market bets made with nonpublic or classified government information. The letter cites a case of more than $409,000 in alleged insider wagers.",
+    "details": [
+      "The probe started with Polymarket and Kalshi earlier in the year.",
+      "The committee is also seeking records from Hyperliquid.",
+      "Crypto.com itself is not accused of wrongdoing."
+    ],
+    "sources": [
+      "House Oversight Committee",
+      "Yahoo Finance"
+    ],
+    "timeline": [
+      {
+        "date": "2026-05",
+        "event": "Committee probe begins with Polymarket and Kalshi."
+      },
+      {
+        "date": "2026-09-29",
+        "event": "Letter sent to Crypto.com."
+      }
+    ],
+    "tags": [
+      "congress",
+      "prediction-markets",
+      "insider-trading"
+    ]
+  },
+  {
+    "id": "mass-effect-universe-trailer-leak",
+    "category": "gaming",
+    "topic": "Mass Effect",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 86,
+    "date": "2026-10-22",
+    "headline": "Canceled Mass Effect trailer leaks a day after BioWare closes",
+    "summary": "A roughly two minute trailer for the canceled Mass Effect Universe appeared on Reddit the day after EA announced BioWare's closure. Jason Schreier and IGN both confirmed it is real.",
+    "details": [
+      "It was posted from a burner account claiming to be an EA employee.",
+      "The in-engine footage shows a new lead and the return of Liara.",
+      "Reports say it was a pitch video for EA leadership, not meant for the public."
+    ],
+    "sources": [
+      "Bloomberg",
+      "IGN",
+      "Kotaku",
+      "VGC"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "EA announces BioWare's shutdown."
+      },
+      {
+        "date": "2026-10-22",
+        "event": "Trailer leaks and is confirmed real."
+      }
+    ],
+    "tags": [
+      "bioware",
+      "ea",
+      "canceled-game"
+    ]
+  },
+  {
+    "id": "eminem-ex-staffer-pleads-guilty-leaks",
+    "category": "entertainment",
+    "topic": "Eminem",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 66,
+    "date": "2026-10-22",
+    "headline": "Former Eminem staffer pleads guilty to selling unreleased songs",
+    "summary": "A former employee of Eminem's studio pleaded guilty to criminal copyright infringement for copying and selling unreleased tracks that later leaked online. The Justice Department valued the leaked songs at about $750,000.",
+    "details": [
+      "The plea covers at least 10 audio files taken from a password protected drive.",
+      "The leaked tracks were accessed more than eight million times.",
+      "Sentencing is set for January 27, 2027."
+    ],
+    "sources": [
+      "U.S. Justice Department",
+      "Rolling Stone",
+      "Billboard"
+    ],
+    "timeline": [
+      {
+        "date": "2025-01",
+        "event": "Eminem's team finds the songs for sale and alerts the FBI."
+      },
+      {
+        "date": "2026-10-22",
+        "event": "Guilty plea announced."
+      }
+    ],
+    "tags": [
+      "music",
+      "copyright",
+      "court"
+    ]
+  },
+  {
+    "id": "my-chemical-romance-2027-album-tour-leak",
+    "category": "entertainment",
+    "topic": "My Chemical Romance",
+    "status": "rumor",
+    "credibility": 2,
+    "heat": 48,
+    "date": "2026-09-26",
+    "headline": "Leak account says My Chemical Romance has a 2027 album and tour",
+    "summary": "A tour leak account on X claimed My Chemical Romance will release a new album and tour in 2027. The band has not confirmed it, though Gerard Way said on stage they would love to make another record.",
+    "details": [
+      "Way's September 12 comments gave no title or date.",
+      "It would be the band's first album in more than 15 years.",
+      "A 20th anniversary Black Parade reissue came out October 23."
+    ],
+    "sources": [
+      "Vice",
+      "Billboard"
+    ],
+    "timeline": [
+      {
+        "date": "2026-09-12",
+        "event": "Way hints at a new album on stage."
+      },
+      {
+        "date": "2026-09-26",
+        "event": "Leak account posts the 2027 claim."
+      }
+    ],
+    "tags": [
+      "music",
+      "tour",
+      "unconfirmed"
+    ]
+  },
+  {
+    "id": "dni-memo-iran-plots-us-officials",
+    "category": "world",
+    "topic": "Iran",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 90,
+    "date": "2026-10-24",
+    "headline": "Leaked intel memo warns Iran plots against US officials are advanced",
+    "summary": "Axios obtained a one page unclassified memo from intelligence chief Jay Clayton to Secretary of State Marco Rubio saying Iran has sharply stepped up efforts to target US personnel. US officials confirmed it was real.",
+    "details": [
+      "The memo is dated October 23 and says some plots are in advanced stages.",
+      "It does not name targets or countries outside the Middle East.",
+      "The AP later got the memo independently."
+    ],
+    "sources": [
+      "Axios",
+      "Associated Press",
+      "Fox News"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-23",
+        "event": "Memo sent to Rubio."
+      },
+      {
+        "date": "2026-10-24",
+        "event": "Axios publishes the scoop."
+      }
+    ],
+    "tags": [
+      "intelligence",
+      "state-department",
+      "memo"
+    ]
+  },
+  {
+    "id": "white-house-ballroom-donor-spreadsheet",
+    "category": "world",
+    "topic": "White House",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 82,
+    "date": "2026-10-15",
+    "headline": "Leaked spreadsheet names donors behind Trump's $333M ballroom",
+    "summary": "The Washington Post obtained an internal spreadsheet listing 67 donations over $10,000 to the White House ballroom project, totaling $333 million. The White House said it will relentlessly pursue the leaker.",
+    "details": [
+      "Nvidia, Apple, the Adelson family and Charles Ergen gave $25 million each, per the report.",
+      "At least $77 million came from donors who asked to stay anonymous.",
+      "The Post did not find proof that donations influenced government decisions."
+    ],
+    "sources": [
+      "The Washington Post",
+      "Mediaite",
+      "Spokesman-Review"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-15",
+        "event": "Post publishes the donor list."
+      },
+      {
+        "date": "2026-10-15",
+        "event": "White House vows to hunt the leaker."
+      }
+    ],
+    "tags": [
+      "donors",
+      "spreadsheet",
+      "white-house"
+    ]
+  },
+  {
+    "id": "pentagon-deep-cover-china-program-leak",
+    "category": "world",
+    "topic": "Pentagon",
+    "status": "developing",
+    "credibility": 4,
+    "heat": 72,
+    "date": "2026-10-21",
+    "headline": "Post reports a Pentagon plan for deep-cover spies in business",
+    "summary": "Citing six people familiar with it, The Washington Post reported the Pentagon is building a program to place undercover officers in private-sector jobs to gather economic intelligence on China. The Pentagon says the reporting is not true.",
+    "details": [
+      "The officers would work without diplomatic cover.",
+      "Congressional committees reportedly had not been briefed.",
+      "Critics of the story called it a damaging leak."
+    ],
+    "sources": [
+      "The Washington Post",
+      "Political Wire",
+      "Daily Caller"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-21",
+        "event": "Post publishes the report."
+      },
+      {
+        "date": "2026-10-22",
+        "event": "Pentagon denial and backlash over the leak."
+      }
+    ],
+    "tags": [
+      "pentagon",
+      "espionage",
+      "china"
+    ]
+  },
+  {
+    "id": "mlb-confidential-lockout-memo",
+    "category": "world",
+    "topic": "MLB",
+    "status": "confirmed",
+    "credibility": 5,
+    "heat": 55,
+    "date": "2026-10",
+    "headline": "MLB's confidential 34-page lockout playbook gets out",
+    "summary": "The Athletic obtained a confidential memo MLB sent to owners and top executives on October 1 laying out rules for a possible lockout when the labor deal expires December 1. It covers trades, player contact and even holiday cards.",
+    "details": [
+      "No trades or signings with 40-man roster players during a lockout.",
+      "Player images and videos would come off team and league sites.",
+      "The memo says MLB still wants to reach a deal."
+    ],
+    "sources": [
+      "The Athletic",
+      "theScore",
+      "Bleacher Report"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-01",
+        "event": "Memo sent to clubs."
+      },
+      {
+        "date": "2026-10",
+        "event": "The Athletic reports its contents."
+      }
+    ],
+    "tags": [
+      "sports",
+      "labor",
+      "memo"
+    ]
+  },
+  {
+    "id": "paxton-campaign-fundraising-memo",
+    "category": "world",
+    "topic": "US politics",
+    "status": "confirmed",
+    "credibility": 4,
+    "heat": 45,
+    "date": "2026-10-08",
+    "headline": "Leaked Paxton memo admits his Senate campaign is behind on money",
+    "summary": "Punchbowl News obtained a fundraising memo from Ken Paxton's Texas Senate campaign saying opponent James Talarico has spent or reserved $65 million in ads at better rates. The memo told donors the campaign is playing catch up.",
+    "details": [
+      "The memo was written by Paxton's fundraisers.",
+      "It was one of several leaks from the campaign within two weeks, including audio of a closed event.",
+      "The race is seen as a must win for Republicans."
+    ],
+    "sources": [
+      "Punchbowl News",
+      "The Daily Beast"
+    ],
+    "timeline": [
+      {
+        "date": "2026-10-07",
+        "event": "Recording of a closed campaign event surfaces."
+      },
+      {
+        "date": "2026-10-08",
+        "event": "Fundraising memo reported."
+      }
+    ],
+    "tags": [
+      "election",
+      "texas",
+      "memo"
     ]
   }
 ];
